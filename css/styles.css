@@ -54,9 +54,9 @@ h1 {
 	z-index: 4;
 }
 
-#about{ background-image: url(images/cool-water.gif);  }
-#events{ background-image: url(images/cloud.jpg); }
-#join{ background-image: url(images/astro.jpg); } 
+#about{ background-image: url(images/circuts.jpg);  }
+#events{ background-image: url(images/weekendhackathon.png); }
+#join{ background-image: url(images/hexback.jpg); } 
 
 .no-margin{	margin:0; }
 

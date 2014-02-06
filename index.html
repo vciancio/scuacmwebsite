@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>ACM Santa Clara</title>
+		<title>Santa Clara ACM</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!--	
 		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 		<link href="//netdna.bootstrapcdn.com/bootswatch/3.0.3/simplex/bootstrap.min.css" rel="stylesheet">
--->	
-		<link href='http://fonts.googleapis.com/css?family=Cabin:500,700' rel='stylesheet' type='text/css'>
+-->
+        <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300,700' rel='stylesheet' type='text/css'>
 		<link href="css/bootstrap.css" rel = "stylesheet">
 		<link href="css/styles.css" rel="stylesheet" type="text/css"/>
 
@@ -19,7 +19,7 @@
 		<header class="navbar navbar-inverse navbar-fixed-top transparent" role="navigation">
 			<div class="container">
 				<div class = "navbar-header">
-					<a href="index.html" class = "navbar-brand">ACM Santa Clara</a>
+					<a href="index.html" class = "navbar-brand">Santa Clara ACM</a>
 
 					<button class = "navbar-toggle" type = "button" data-toggle = "collapse" data-target=".bs-navbar-collapse">
 						<span class = "icon-bar"></span>
@@ -33,8 +33,9 @@
 						<li class = "active"><a href="#index">Home</a></li>
 						<li><a href="#about">About</a></li>
 						<li><a href="#events">Events</a></li>
+						<li><a href="#join">Join</a></a></li>
 						<li class = "dropdown">
-							<a href="#join" class = "dropdown-toggle" data-toggle = "dropdown"> Join <b class = "caret"></b></a>
+							<a href="#" class = "dropdown-toggle" data-toggle = "dropdown"> Contact <b class = "caret"></b></a>
 							<ul class = "dropdown-menu">
 								<li><a href="#">Google+</a></li>
 								<li><a href="#">Facebook</a></li>
@@ -47,7 +48,7 @@
 		</header>
 
 		<div id="index" class="jumbotron">
-			<h1>Welcome to ACM Santa Clara</h1>
+			<h1>Santa Clara ACM</h1>
 			<p class="bg-text">
 			    This is the new website for Santa Clara's ACM site, it's looking aight even though there's still the rest of the pages to implement, 
 			    so the webmaster will get those uploaded in a few. For the most part, we've finally got stuff up and running. <strike>If you've noticed, we have a hella dope background image too.</strike> 
@@ -76,13 +77,9 @@
 
 			<div class = "section" id="events">
 				<div class="post">							
-					<h1>Good Reads</h1>
-					<p>
-					    Williamsburg voluptate paleo vero, in banjo retro. Wolf Bushwick single-origin coffee, meggings tempor chambray quinoa Austin mustache 90's do freegan. Tote bag street 
-					    art commodo small batch magna hoodie, ad sriracha cornhole est locavore. Blue Bottle culpa est quis, McSweeney's dolor mumblecore mollit Bushwick squid synth fugiat photo 
-					    booth. Polaroid Cosby sweater fanny pack direct trade, tattooed actually minim deserunt small batch VHS. Aesthetic ad minim in semiotics fanny pack pop-up yr narwhal. Marfa 
-    					aute proident plaid, selfies tempor ethnic swag Godard gastropub fingerstache tofu cornhole mustache.
-    				</p>
+					<h1>Events</h1>
+					<h3>Upcoming</h3>
+                    <?php include "inc/upcoming_events.html"?>
 				</div>
 			</div>
 
@@ -101,8 +98,7 @@
 
 		<div class = "navbar navbar-default nav-bar-fixed-bottom no-margin">
 			<div class = "container">
-				<p class = "navbar-text pull-left">Site Built By Ken Kesey</p>
-				<a href="#" class = "navbar-btn btn-danger btn pull-right">Subscribe on Google+</a>
+
 			</div>
 		</div>
 
